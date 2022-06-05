@@ -2,7 +2,6 @@
 #include "network_evaluate.h"
 
 
-
 float linear(float num) {
 	return num;
 }
@@ -12,8 +11,6 @@ float linear(float num) {
 float sigmoid(float num) {
 	return 1 / (1 + exp(-num));
 }
-
-
 
 float relu(float num) {
 	if (num > 0) {

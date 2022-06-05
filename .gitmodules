@@ -1,0 +1,3 @@
+[submodule "quad_nn_firmware"]
+	path = quad_nn_firmware
+	url = https://github.com/jackyoung96/quad_nn_firmware.git
